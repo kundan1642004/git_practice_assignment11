@@ -9,6 +9,7 @@ if(number%i==0){
 count_factor++;
 }
 }
+
 if(count_factor==2){
 console.log("prime")
 }
@@ -16,5 +17,7 @@ else{
 console.log("Not prime")
 }
 
+
 }
- checkprime(17);
+console.log(checkprime(17));
+
